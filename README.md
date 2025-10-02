@@ -10,3 +10,7 @@
   move it to edwin's vps
 - look at this [excalidraw](https://excalidraw.com/#json=bgC7_A67KvTqzU-OaXNns,Jq9FamQs-zg4ykkVnsjg4g) for very simple desired layout 
 
+## Dependencies 
+
+- [Air](https://github.com/air-verse/air)
+- Go >= 1.24.6
