@@ -1,12 +1,40 @@
 {{ define "footer" }}
-  <!-- TODO: needs link and better formating-->
-  <p>Thak you to Sesh Coworking for donating space to us</p>
-  <img src="./assets/sesh-coworking-logo.png" width="100rem"/>
+  <div id="footer-container">
+    <div id="sponsor-container">
+      <a
+          href="https://seshcoworking.com/"
+          target="_blank">
+        <img 
+          src="./assets/sesh-coworking-logo.png" 
+          width="100rem"/>
+      </a>
+    </div>
 
-  <!-- TODO: needs icons and links -->
-  <ul>
-    <li>Meetup</li>
-    <li>Discord</li>
-    <li>Reddit</li>
-  </ul>
+    <div id="socials-container">
+      <a 
+        href="https://www.meetup.com/houston-linux-user-group/?eventOrigin=home_groups_you_are_in"
+        target="_blank" >
+        <img 
+          class="socials-img"
+          src="./assets/meetup-icon.png"
+          alt="Meetup" />
+      </a>
+      <a 
+        href="https://discord.gg/Q6kkRZDzj7" 
+        target="_blank">
+        <img 
+          class="socials-img"
+          src="./assets/discord-icon.png"
+          alt="Discord" />
+      </a>
+      <a 
+        href="https://www.reddit.com/r/houstonlinuxusergroup/"
+        target="_blank">
+        <img
+          class="socials-img"
+          src="./assets/reddit-icon.png"
+          alt="Reddit" />
+      </a>
+    </div>
+  </div>
 {{ end }}

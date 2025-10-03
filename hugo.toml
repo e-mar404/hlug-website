@@ -1,0 +1,4 @@
+baseURL = 'https://houstonlinux.org/'
+languageCode = 'en-us'
+title = 'HLUG'
+theme = 'terminal'
