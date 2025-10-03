@@ -1,3 +1,24 @@
 #navbar {
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%
 }
+
+#navbar-title {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+}
+
+.navbar-link-item {
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+/* TODO: better color scheme */
+.navbar-link-item:hover {
+  color: blue; 
+}
+
