@@ -23,9 +23,12 @@ func main() {
 
 	e := echo.New()
 	e.Static("css", "css")
+	e.Static("assets", "assets")
 	e.Renderer = renderer 
+
 	e.GET("/", func(c echo.Context) error {
 		return c.Render(http.StatusOK, "home", "")
 	})
+
 	e.Logger.Fatal(e.Start(":8080"))
 }

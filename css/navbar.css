@@ -8,17 +8,21 @@
 #navbar-title {
   text-decoration: none;
   padding: 1rem;
-  color: black;
+  color: inherit;
 }
 
 .navbar-link-item {
   padding: 1rem;
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 
-/* TODO: better color scheme */
 .navbar-link-item:hover {
-  color: blue; 
+  color: #a6e3a1; 
 }
+
+.navbar-link-item:visited {
+  color: #eba0ac;
+}
+
 
