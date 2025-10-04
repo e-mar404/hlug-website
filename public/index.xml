@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HLUG</title>
+    <title>~/hlug on HLUG</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on HLUG</description>
+    <description>Recent content in ~/hlug on HLUG</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Oct 2025 18:51:53 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>~/social</title>
+      <link>http://localhost:1313/social/</link>
+      <pubDate>Fri, 03 Oct 2025 18:51:53 -0500</pubDate>
+      <guid>http://localhost:1313/social/</guid>
+      <description>&lt;p&gt;These meetings involve eating and drinking in the company of Linux minded people. The topics rarely stay on Linux proper, but flow with whatever the group is interested in at the moment. It&amp;rsquo;s a great way to network with Linux loving peers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>~/support</title>
+      <link>http://localhost:1313/support/</link>
+      <pubDate>Fri, 03 Oct 2025 18:51:49 -0500</pubDate>
+      <guid>http://localhost:1313/support/</guid>
+      <description>&lt;p&gt;The Houston Linux User Group provides support for Linux people needing assistance with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Installing Linux on new hardware.&lt;/li&gt;&#xA;&lt;li&gt;Improving or fixing a Linux installation.&lt;/li&gt;&#xA;&lt;li&gt;Questions about how Linux works.&lt;/li&gt;&#xA;&lt;li&gt;Questions / assistance with Linux security.&lt;/li&gt;&#xA;&lt;li&gt;Linux software suggestions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Members meet to both offer support and ask for it. We generally have a diverse enough group to attempt any problem, and have answered thousands of general use problems (and fixed hundreds of WiFi card issues) over the years.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>~/education</title>
+      <link>http://localhost:1313/education/</link>
+      <pubDate>Fri, 03 Oct 2025 18:51:44 -0500</pubDate>
+      <guid>http://localhost:1313/education/</guid>
+      <description>&lt;h2 id=&#34;educational-gatherings&#34;&gt;Educational Gatherings&lt;/h2&gt;&#xA;&lt;p&gt;These meetings involve learning about Linux, and computer related topics. They typically involve a person giving a presentation, but also extend to one on one coaching, mentoring, or long form classroom styhle teaching.&lt;/p&gt;&#xA;&lt;p&gt;They are a great way to gain exposure to current computing topics, improve understanding of a current system, or gain understanding in a new areas of computing.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;lectures-and-presentations&#34;&gt;Lectures and Presentations&lt;/h2&gt;&#xA;&lt;p&gt;Every week we host a Lecture / Presentation session. To track the topics, please follow our calendar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>~/advocacy</title>
+      <link>http://localhost:1313/advocacy/</link>
+      <pubDate>Fri, 03 Oct 2025 18:48:49 -0500</pubDate>
+      <guid>http://localhost:1313/advocacy/</guid>
+      <description>&lt;p&gt;Advocacy is one of the four pillars of our mission. By letting others know of Linux and how it can help their lives, we hope to gain more Linux users. While Linux has already spread throughout the server room and into the cloud, we seek to help people find new uses of Linux and Linux technology in areas where it can transfer more control back to the user, providing efficient, most-effective, and performant computing at a minimal cost.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
