@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+  <head>
+    <title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Site.BaseURL }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
+    <main>
+      <header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+      {{ .Content }}
+    </main>
+  </body>
+</html>
