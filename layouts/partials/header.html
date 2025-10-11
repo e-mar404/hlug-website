@@ -1,8 +1,16 @@
 <header class="flex flex-row">
-  <div>
-    <h1 class="text-3xl font-bold p-3">
-      {{ $.Title }}
-    </h1>
-  </div>
-  <hr class="w-[1px] h-full bg-black pt-2 pb-2 mr-3"> 
+  {{ with $home := $.Site.GetPage "/" }}
+    <div>
+      <nav class="flex flex-col align-start p-3">
+        <h1 class="text-3xl font-bold pb-2">
+          <a href="{{ $home.Permalink }}">{{ $.Site.Title }}</a>
+        </h1>
+
+        {{ range $page := $home.Pages }}
+          <a href="{{ $page.Permalink }}">{{ $page.LinkTitle }}</a>
+        {{ end }}
+      </nav>
+    </div>
+    <hr class="w-[1px] h-full bg-black pt-2 pb-2 mr-3"> 
+  {{ end }}
 </header>

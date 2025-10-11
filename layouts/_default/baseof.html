@@ -15,7 +15,8 @@
       {{ partial "header.html" . }}
 
       <div>
-        {{ .Content }}
+        {{ block "main" . }}
+        {{ end }}
       </div>
 
     </main>
