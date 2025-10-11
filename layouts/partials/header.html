@@ -7,7 +7,10 @@
         </h1>
 
         {{ range $page := $home.Pages }}
-          <a href="{{ $page.Permalink }}">{{ $page.LinkTitle }}</a>
+          <a href="{{ $page.Permalink }}"
+            class="hover:text-teal-800 focus:text-red-950">
+            {{ $page.LinkTitle }}
+          </a>
         {{ end }}
       </nav>
     </div>
