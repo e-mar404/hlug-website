@@ -6,22 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
-
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <body>
-    {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
-    <main>
-      <header>
-        <h1 id="tag_{{ .Title }}" class="text-3xl font-bold">{{ block "title" . }}{{ end }}</h1>
-      </header>
-      {{ .Content }}
+  <body id="root" class="w-full h-screen flex-1 flex justify-center items-center">
+    <main class="w-3/4 h-fit flex flex-row">
+
+      {{ partial "header.html" . }}
+
+      <div>
+        {{ .Content }}
+      </div>
+
     </main>
   </body>
 </html>
