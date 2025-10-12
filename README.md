@@ -49,9 +49,9 @@ hugo server
 ```
 Note:
 
-    We recommend using the flags `--noHTTPCache` and `--disableFastRender` to
-    help mitigate any issues of things not getting updated because of cached
-    files.
+We recommend using the flags `--noHTTPCache` and `--disableFastRender` to
+help mitigate any issues of things not getting updated because of cached
+files.
 
 <details>
 <summary>Maven Instructions (Legacy)</summary>
