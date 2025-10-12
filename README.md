@@ -47,6 +47,11 @@ git clone https://github.com/edwbuck/hlug-website.git
 cd hlug-website
 hugo server
 ```
+Note:
+
+We recommend using the flags `--noHTTPCache` and `--disableFastRender` to
+help mitigate any issues of things not getting updated because of cached
+files.
 
 <details>
 <summary>Maven Instructions (Legacy)</summary>
